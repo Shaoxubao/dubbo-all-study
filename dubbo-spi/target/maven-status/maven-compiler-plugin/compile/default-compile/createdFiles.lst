@@ -1,0 +1,4 @@
+com\baoge\Main.class
+com\baoge\command\impl\StartCommand.class
+com\baoge\command\impl\ShutdownCommand.class
+com\baoge\command\Command.class
