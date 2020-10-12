@@ -17,7 +17,7 @@ import java.util.ServiceLoader;
  * Java SPI就是提供这样的一个机制：
  * 为某个接口寻找服务实现的机制，有点类似IOC的思想，就是将装配的控制权移到代码之外。
  *
- * SPI具体约定如下：
+ * JDK SPI具体约定如下：
  * 当服务提供者(provider)，提供了一个接口多种实现时，
  * 一般会在jar包的META-INF/services/目录下，创建该接口的同名文件，
  * 该文件里面的内容就是该服务接口的具体实现类的名称，
