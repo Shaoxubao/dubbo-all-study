@@ -12,6 +12,7 @@
         <module>dubbo-spi</module>
         <module>dubbo-compiler</module>
         <module>spring-schema</module>
+        <module>netty-demo</module>
     </modules>
 
 
