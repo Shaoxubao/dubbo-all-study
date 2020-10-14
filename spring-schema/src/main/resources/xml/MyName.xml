@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:baoge="http://study.baoge.com/u/666666/schema/people"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://study.baoge.com/u/666666/schema/people http://study.baoge.com/u/666666/schema/people.xsd">
+
+
+    <baoge:people id="baoge" name="豹哥" age="18"/>
+
+</beans>
