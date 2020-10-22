@@ -1,5 +1,6 @@
-package com.baoge.service;
+package com.baoge;
 
+import com.baoge.service.OrderService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
