@@ -19,4 +19,6 @@
     <!-- 声明远程调用接口 -->
     <dubbo:reference id="userService" interface="com.baoge.service.UserService" />
 
+    <!-- 监控中心 -->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>

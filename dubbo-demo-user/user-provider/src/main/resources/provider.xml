@@ -21,4 +21,7 @@
     <!-- 服务实现 -->
     <bean id="userServiceImpl" class="com.baoge.service.impl.UserServiceImpl"></bean>
 
+    <!-- 监控中心 -->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+
 </beans>
