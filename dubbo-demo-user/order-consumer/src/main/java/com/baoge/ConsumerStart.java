@@ -15,7 +15,7 @@ public class ConsumerStart {
         OrderService orderService = ioc.getBean(OrderService.class);
         orderService.createOrder(6);
 
-        System.out.println("调用完成");
+        System.out.println("调用完成.");
 
         System.in.read();
     }

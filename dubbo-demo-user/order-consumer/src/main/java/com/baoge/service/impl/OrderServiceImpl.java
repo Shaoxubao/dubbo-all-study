@@ -26,11 +26,13 @@ public class OrderServiceImpl implements OrderService {
     private UserService userService;
 
     @Override
-    public void createOrder(Integer userId) {
+    public List<UserAddress> createOrder(Integer userId) {
         System.out.println("createOrder------");
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
         for (UserAddress address : userAddressList) {
-            System.out.println(address.getAddress());
+//            System.out.println(address.getAddress());
         }
+
+        return userAddressList;
     }
 }

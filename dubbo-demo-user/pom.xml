@@ -16,7 +16,8 @@
         <module>order-consumer</module>
         <module>mall-api</module>
         <module>boot-user-provider</module>
-        <module>boot-order-consumer</module>
+        <module>boot-order-provider</module>
+        <module>boot-order-controller</module>
     </modules>
 
 

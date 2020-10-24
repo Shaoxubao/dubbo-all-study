@@ -1,10 +1,12 @@
 package com.baoge.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.dubbo.config.annotation.Service;
 import com.baoge.bean.UserAddress;
 import com.baoge.service.OrderService;
 import com.baoge.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -19,18 +21,22 @@ import java.util.List;
  * 2、让消费者去注册中心订阅提供者的服务地址
  */
 
-@Service
+
+@Service // 暴露服务
+@Component
 public class OrderServiceImpl implements OrderService {
 
-    @Autowired
+    @Reference
     private UserService userService;
 
     @Override
-    public void createOrder(Integer userId) {
+    public List<UserAddress> createOrder(Integer userId) {
         System.out.println("createOrder------");
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
         for (UserAddress address : userAddressList) {
-            System.out.println(address.getAddress());
+//            System.out.println(address.getAddress());
         }
+
+        return userAddressList;
     }
 }

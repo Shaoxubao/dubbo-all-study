@@ -1,7 +1,9 @@
 package com.baoge.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.baoge.bean.UserAddress;
 import com.baoge.service.UserService;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +13,9 @@ import java.util.List;
  * Author: Shao Xu Bao <xubao_shao@163.com>
  * Date:   2020/10/21
  */
+
+@Service // 暴露服务
+@Component
 public class UserServiceImpl implements UserService {
 
     @Override
