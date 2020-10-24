@@ -5,9 +5,11 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.baoge.bean.UserAddress;
 import com.baoge.service.OrderService;
 import com.baoge.service.UserService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -29,6 +31,8 @@ public class OrderServiceImpl implements OrderService {
     @Reference
     private UserService userService;
 
+    // 出现错误容错，调用hello方法
+    @HystrixCommand(fallbackMethod = "hello")
     @Override
     public List<UserAddress> createOrder(Integer userId) {
         System.out.println("createOrder------");
@@ -38,5 +42,9 @@ public class OrderServiceImpl implements OrderService {
         }
 
         return userAddressList;
+    }
+
+    public List<UserAddress> hello(Integer userId) {
+        return Arrays.asList(new UserAddress(10, "富力", "豹哥", "15929892495"));
     }
 }
