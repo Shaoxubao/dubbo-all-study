@@ -17,7 +17,17 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"></dubbo:registry>
 
     <!-- 声明远程调用接口 -->
+    <!-- timeout="0" 默认是1000ms-->
+    <!--
+       1）、精确优先 (方法级优先，接口级次之，全局配置再次之)
+       2）、消费者设置优先(如果级别一样，则消费方优先，提供方次之)
+    -->
+    <!-- retries="":重试次数，不包含第一次调用，0代表不重试-->
+    <!-- 幂等（设置重试次数）【查询、删除、修改】、非幂等（不能设置重试次数）【新增】 -->
     <dubbo:reference id="userService" interface="com.baoge.service.UserService" />
+
+    <!-- 配置消费者统一规则 (check="false"还可以配置到<dubbo:reference...>处)-->
+    <dubbo:consumer check="false" timeout="5000"></dubbo:consumer>
 
     <!-- 监控中心 -->
     <dubbo:monitor protocol="registry"></dubbo:monitor>
