@@ -1,101 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad40e47d-52ba-490c-bf73-890bce0290b5" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-spi/target/" />
+    <list default="true" id="ad40e47d-52ba-490c-bf73-890bce0290b5" name="Default Changelist" comment="hystrix容错使用" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="276895587">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Command" value="2" />
-          <entry key="java" value="4" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Command" value="2" />
-          <entry key="java" value="661" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="661" />
-          <entry key="PLAIN_TEXT" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../spring-framework" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-lecture" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jesper</find>
+      <find>163</find>
+      <find>ykt1461577211836</find>
+      <find>agan</find>
+      <find>final</find>
+      <find>boot-order-consumer</find>
+      <find>boot-user-consumer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>666666</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\workspace\dubbo-all\spring-schema</dir>
+    </dirStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/Command.java" />
-        <option value="$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/impl/StartCommand.java" />
-        <option value="$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/impl/ShutdownCommand.java" />
-        <option value="$PROJECT_DIR$/dubbo-spi/src/main/resources/META_INF/services/com.baoge.command.Command" />
-        <option value="$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -110,155 +50,41 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="84" />
-    <option name="y" value="24" />
-    <option name="width" value="1752" />
-    <option name="height" value="984" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baoge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baoge" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baoge" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-all" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1x8Jy7gal1LmEFVsAPbipaXHXgK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="Load&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.LoadBalance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602494294109" />
-    <property name="last_opened_file_path" value="D:/javatools/jdk1.8.0/jdk/bin/jvisualvm.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603555434739" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\dubbo-all\dubbo-demo-user\boot-order-controller\src\main\resources" />
+      <recent name="D:\workspace\dubbo-all\dubbo-demo-user\boot-order-consumer\src\main\resources" />
+      <recent name="D:\workspace\dubbo-all\dubbo-demo-user\boot-order-consumer\src\main\java" />
+      <recent name="D:\workspace\dubbo-all\dubbo-demo-user\boot-user-provider\src\main\java" />
+      <recent name="D:\workspace\dubbo-all\spring-schema" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baoge.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\dubbo-all\zookeeper-demo\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,13 +98,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baoge.Main" />
-      <module name="dubbo-spi" />
+  <component name="RunManager" selected="Spring Boot.BootOrderProviderStart">
+    <configuration name="ConsumerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baoge.ConsumerStart" />
+      <module name="order-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baoge.*" />
+          <option name="PATTERN" value="com.baoge.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,9 +112,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baoge.ProviderStart" />
+      <module name="user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baoge.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootOrderProviderStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot-order-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baoge.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baoge.BootOrderProviderStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootUserProviderStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baoge.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baoge.BootUserProviderStart" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot-order-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baoge.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baoge.OrderControllerStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProviderStart" />
+      <item itemvalue="Application.ConsumerStart" />
+      <item itemvalue="Spring Boot.BootUserProviderStart" />
+      <item itemvalue="Spring Boot.BootOrderProviderStart" />
+      <item itemvalue="Spring Boot.OrderControllerStart" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.OrderControllerStart" />
+        <item itemvalue="Spring Boot.BootOrderProviderStart" />
+        <item itemvalue="Spring Boot.BootUserProviderStart" />
+        <item itemvalue="Application.ProviderStart" />
+        <item itemvalue="Application.ConsumerStart" />
       </list>
     </recent_temporary>
   </component>
@@ -302,122 +192,168 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602492004420</updated>
-      <workItem from="1602492006392" duration="2283000" />
+      <workItem from="1602492006392" duration="3730000" />
+      <workItem from="1602641967076" duration="3251000" />
+      <workItem from="1602665156206" duration="10246000" />
+      <workItem from="1602772476313" duration="146000" />
+      <workItem from="1602847156996" duration="683000" />
+      <workItem from="1603285672074" duration="9176000" />
+      <workItem from="1603356488944" duration="4166000" />
+      <workItem from="1603455839367" duration="37000" />
+      <workItem from="1603539447394" duration="11335000" />
+      <workItem from="1603639619135" duration="1441000" />
+      <workItem from="1604451463392" duration="42000" />
+      <workItem from="1629731035339" duration="258000" />
     </task>
+    <task id="LOCAL-00001" summary="注释">
+      <created>1602495269396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602495269396</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Javassist demo">
+      <created>1602663485174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602663485174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring Schema demo">
+      <created>1602668158749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602668158750</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Spring Schema demo说明">
+      <created>1602669024435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602669024435</updated>
+    </task>
+    <task id="LOCAL-00005" summary="netty demo">
+      <created>1602680489736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602680489736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Zookeeper 模拟节点创建，删除，订阅数据变更等">
+      <created>1602687744601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602687744601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Dubbo Spring方式调用">
+      <created>1603297436437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603297436437</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改包结构">
+      <created>1603356766724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603356766724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改包结构">
+      <created>1603382232492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603382232492</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Spring Boot Dubbo 整合">
+      <created>1603544469103</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603544469103</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Spring Boot Dubbo配置">
+      <created>1603544951354</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603544951354</updated>
+    </task>
+    <task id="LOCAL-00012" summary="注释">
+      <created>1603550191429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603550191429</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hystrix容错使用">
+      <created>1603554898593</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603554898593</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2283000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30276817" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.038251366" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/impl/StartCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/command/impl/ShutdownCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/resources/META-INF/services/com.baoge.command.Command">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-spi/src/main/java/com/baoge/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Javassist demo" />
+    <MESSAGE value="Spring Schema demo" />
+    <MESSAGE value="Spring Schema demo说明" />
+    <MESSAGE value="netty demo" />
+    <MESSAGE value="Zookeeper 模拟节点创建，删除，订阅数据变更等" />
+    <MESSAGE value="Dubbo Spring方式调用" />
+    <MESSAGE value="修改包结构" />
+    <MESSAGE value="Spring Boot Dubbo 整合" />
+    <MESSAGE value="Spring Boot Dubbo配置" />
+    <MESSAGE value="注释" />
+    <MESSAGE value="hystrix容错使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="hystrix容错使用" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-demo/src/main/java/com/baoge/NodeManager.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

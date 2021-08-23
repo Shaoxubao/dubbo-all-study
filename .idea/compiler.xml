@@ -6,7 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-order-controller" />
+        <module name="boot-order-provider" />
+        <module name="boot-user-provider" />
+        <module name="dubbo-compiler" />
         <module name="dubbo-spi" />
+        <module name="mall-api" />
+        <module name="netty-demo" />
+        <module name="order-consumer" />
+        <module name="spring-schema" />
+        <module name="user-provider" />
+        <module name="zookeeper-demo" />
       </profile>
     </annotationProcessing>
   </component>
